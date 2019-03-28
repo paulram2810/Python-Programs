@@ -1,0 +1,5 @@
+x = input("Enter number of Rs.100 note withdrawn : ")
+y = input("Enter number of Rs.200 note withdrawn : ")
+z = input("Enter number of Rs.500 note withdrawn : ")
+amt = (int(x)*100)+(int(y)*200)+(int(z)*500)
+print("Total amount withdrawn : Rs.",amt)

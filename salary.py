@@ -1,0 +1,35 @@
+name = input("Enter name of the employee : ")
+name = str(name)
+amount = eval(input("Enter salary of the employee : "))
+gender = input("Enter gender of the employee (M/F) : ")
+gender = str(gender)
+if(amount>=10000):
+    if(gender=='M'):
+        print("\nSalary Slip")
+        print("Name : ",name)
+        print("Gender : ",gender)
+        print("Base Salary : ",amount)
+        print("Bonus : ",(amount*0.05))
+        print("Net Salary : ",amount+(amount*0.05))
+    if(gender=='F'):
+        print("\nSalary Slip")
+        print("Name : ",name)
+        print("Gender : ",gender)
+        print("Base Salary : ",amount)
+        print("Bonus : ",(amount*0.07))
+        print("Net Salary : ",amount+(amount*0.07))
+if(amount<10000):
+    if(gender=='M'):
+        print("\nSalary Slip")
+        print("Name : ",name)
+        print("Gender : ",gender)
+        print("Base Salary : ",amount)
+        print("Bonus : ",(amount*0.07))
+        print("Net Salary : ",amount+(amount*0.07))
+    if(gender=='F'):
+        print("\nSalary Slip")
+        print("Name : ",name)
+        print("Gender : ",gender)
+        print("Base Salary : ",amount)
+        print("Bonus : ",(amount*0.09))
+        print("Net Salary : ",amount+(amount*0.09))

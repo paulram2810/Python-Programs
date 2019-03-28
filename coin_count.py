@@ -1,0 +1,6 @@
+a = eval(input("Enter number of Rs.10 coins : "))
+b = eval(input("Enter number of Rs.5 coins : "))
+c = eval(input("Enter number of Rs.2 coins : "))
+d = eval(input("Enter number of Rs.1 coins : "))
+amt = (a*10)+(b*5)+(c*2)+(d*1)
+print("Total amount : Rs.",amt)
